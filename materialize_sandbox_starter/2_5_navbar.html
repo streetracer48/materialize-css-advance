@@ -151,82 +151,95 @@
 
   <br>
   <br>
-
+<h3>RESPONSIVE WITH SIDE MENU</h3>
   <!-- RESPONSIVE WITH SIDE MENU -->
-  <nav>
-    <div>
-      <div>
-        <a href="#">Logo</a>
-        <a href="#">
-          <i></i>
-        </a>
-        <ul>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-
-          <!-- DROPDOWN TRIGGER -->
-          <li>
-            <a href="#!">Dropdown
-              <i></i>
-            </a>
-          </li>
-          <!-- BUTTON LINK -->
-          <li>
-            <a>Login</a>
-          </li>
-          <!-- ICON LINK -->
-          <li>
-            <a href="#">
-              <i>p</i>
-            </a>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-        </ul>
+  <nav class="yellow darken-4">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">Logo</a>
+          <a class="button-collapse" data-activates="mobile-nav" href="#">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+  
+            <!-- DROPDOWN TRIGGER -->
+            <li>
+              <a class="dropdown-button" data-activates="my-dropdown" href="#!">Dropdown
+                <i class="material-icons right">arrow_drop_down</i>
+              </a>
+            </li>
+            <!-- BUTTON LINK -->
+            <li>
+              <a class="btn waves-effect waves-light">Login</a>
+            </li>
+            <!-- ICON LINK -->
+            <li>
+              <a href="#">
+                <i class="material-icons">person</i>
+              </a>
+            </li>
+          </ul>
+          <ul class="side-nav" id="mobile-nav">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
+    </nav>
+  
+    <!-- DROPDOWN MENU -->
+    <ul id="my-dropdown" class="dropdown-content">
+      <li>
+        <a href="#">Link 1</a>
+      </li>
+      <li>
+        <a href="#">Link 2</a>
+      </li>
+      <li>
+        <a href="#">Link 3</a>
+      </li>
+    </ul>
+  
+    <br>
+    <br>
+  
+    <!-- FIXED NAVBAR -->
+    <div class="navbar-fixed">
+      <nav class="black">
+        <div class="nav-wrapper">
+          <div class="container">
+            <a href="#" class="brand-logo center">Logo</a>
+            <ul id="nav-mobile" class="right hide-on-small-and-down">
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li class="active">
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
-  </nav>
-
-  <!-- DROPDOWN MENU -->
-  <ul>
-    <li>
-      <a href="#">Link 1</a>
-    </li>
-    <li>
-      <a href="#">Link 2</a>
-    </li>
-    <li>
-      <a href="#">Link 3</a>
-    </li>
-  </ul>
-
-  <br>
-  <br>
-
-  <!-- FIXED NAVBAR -->
-  <div>
-
-  </div>
-
-  <br>
-  <br>
-
   <!-- SEARCH BAR -->
 
 
@@ -250,7 +263,7 @@
 
       // JAVASCRIPT START HERE //
 
-
+ $('.button-collapse').sideNav();
 
 
     });
