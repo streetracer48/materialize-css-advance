@@ -8,3 +8,9 @@
     border: #f4f4f4 3px solid !important 
 
 }
+
+.autocomplete-content {
+    position: absolute;
+    width:100%;
+    text-align: center;
+}
