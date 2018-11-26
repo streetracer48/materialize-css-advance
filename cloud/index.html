@@ -26,7 +26,7 @@
           <a href="#" data-activates="mobile-nav" class="button-collapse">
             <i class="fa fa-bars"></i>
           </a>
-          <ul class="right hide-on-med-down">
+          <ul class="right hide-on-med-and-down">
             <li>
               <a class="active-link"href="index.html">Home</a>
             </li>
@@ -265,12 +265,73 @@
     
  </section>
 
+ <!-- section: Testimonial -->
+
+ <section class="section section-testimonial grey lighten-4">
+   <div class="container">
+     <div class="row">
+       <div class="col s12">
+         <div class="carousel carousel-slider center">
+           <div class="carousel-item" href="#one!">
+        <h2>Testimonial 1</h2>
+        <p class="flow-text">
+         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde voluptas impedit pariatur voluptate explicabo repellat architecto odit odio cupiditate, dolore, mollitia velit optio adipisci ad! Iure nihil exercitationem quas voluptatum."
+         <em>
+            -Jhon Doe from Micro system
+        </em>
+        </p>
+        <div class="carousel-fixed-item center hide-on-small-and-down">
+          <a href="#" class="btn grey">Read Me</a>
+        </div>
+        
+           </div>
+           <div class="carousel-item" href="#two!">
+              <h2>Testimonial 1</h2>
+              <p class="flow-text">
+               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde voluptas impedit pariatur voluptate explicabo repellat architecto odit odio cupiditate, dolore, mollitia velit optio adipisci ad! Iure nihil exercitationem quas voluptatum."
+               <em>
+                  -David Mathro from Micro system
+              </em>
+              </p>
+              <div class="carousel-fixed-item center hide-on-small-and-down">
+                <a href="#" class="btn grey">Read Me</a>
+              </div>
+              
+                 </div>
+                 <div class="carousel-item" href="#three!">
+                    <h2>Testimonial 1</h2>
+                    <p class="flow-text">
+                     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde voluptas impedit pariatur voluptate explicabo repellat architecto odit odio cupiditate, dolore, mollitia velit optio adipisci ad! Iure nihil exercitationem quas voluptatum."
+                     <em>
+                        -Warner from Micro system
+                    </em>
+                    </p>
+                    <div class="carousel-fixed-item center hide-on-small-and-down">
+                      <a href="#" class="btn grey">Read Me</a>
+                    </div>
+                    
+                       </div>   
+         </div>
+
+       </div>
+     </div>
+   </div>
+ </section>
+
+
+
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
   <script>
     $(document).ready(function () {
       // Custom JS & jQuery here
+        $('.carousel.carousel-slider').carousel({
+          fullWidth:true
+        });
+
+         $('.button-collapse').sideNav();
+
       
     });
   </script>
