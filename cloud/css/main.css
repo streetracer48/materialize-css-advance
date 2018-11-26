@@ -57,3 +57,6 @@
         min-height: 260px;
     }
 }
+.section-carousel p {
+    font-size: 20px !important
+}
