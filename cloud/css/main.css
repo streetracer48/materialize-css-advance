@@ -15,8 +15,20 @@
     color: #ffffff
 }
 
+.main-header-inner {
+    background: url(../img/background.jpg);
+    background-size:cover;
+    background-position:center;
+    min-height:300px;
+    color: #ffffff
+}
+
 .main-header .showcase {
      padding-top:100px
+}
+
+.main-header-inner .showcase {
+    padding-top:50px
 }
 
 .active-link {
@@ -60,3 +72,7 @@
 .section-carousel p {
     font-size: 20px !important
 }
+
+.tabs .indicator {
+    background-color: #6a1b9a !important;
+  }
