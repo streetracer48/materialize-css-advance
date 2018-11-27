@@ -63,6 +63,11 @@
     background: rgba(112,81,176,0.9)
 }
 
+.btn-extend {
+    display: block;
+    width: 100%;
+  }
+
 @media(max-width:500px) {
     .section-developers,
     .section-podcast {
