@@ -14,7 +14,65 @@
 </head>
 
 <body>
-  <h1>Theme Starter</h1>
+   <header class="main-header">
+     <div class="primary-overlay">
+       <div class="navbar-fixed">
+         <nav class="transparent">
+           <div class="container">
+             <div class="wrapper">
+               <a href="#home" class="brand-logo">Blizz</a>
+               <a 
+               href="#" 
+               data-activvates="mobile-nav"
+                class="button-collapse">
+                <i class="material-icons">menu</i>
+               </a>
+               <ul class="right hide-on-med-and-down">
+                <li>
+                  <a href="#home">Home</a>
+                </li> 
+                <li>
+                    <a href="#home">About</a>
+                  </li> 
+                  <li>
+                      <a href="#home">Testimonials</a>
+                    </li> 
+                    <li>
+                        <a href="#contact">Contact</a>
+                      </li> 
+                      <li>
+                          <a href="#" class="btn blue">Download</a>
+                        </li> 
+               </ul>
+             </div>
+           </div>
+         </nav>
+       </div>
+       <!-- Side nav -->
+       <ul class="side-nav" id="mobile-nav">
+         <h4 class="blue-grey darken-3 center">Blitz</h4>
+         <li>
+           <a  class="divider"></a>
+         </li>
+
+         <li>
+            <a href="#home">Home</a>
+          </li> 
+          <li>
+              <a href="#home">About</a>
+            </li> 
+            <li>
+                <a href="#home">Testimonials</a>
+              </li> 
+              <li>
+                  <a href="#contact">Contact</a>
+                </li> 
+                <li>
+                    <a href="#" class="btn blue">Download</a>
+                  </li> 
+       </ul>
+     </div>
+   </header>
 
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -22,6 +80,9 @@
   <script>
     $(document).ready(function () {
       // Custom JS & jQuery here
+      //init side nav
+  $('.button-collapse').sideNav();  
+       
       
     });
   </script>
