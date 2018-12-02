@@ -13,7 +13,7 @@
 <img src="img/travel.png" width="800" height="400">
 
 - `Most Popular place and ficking`
-<img src="img/travel2.png" width="341" height="610">
+<img src="img/travel2.png" width="800" height="400">
 
 - `Mobile Responsive`
 <img src="img/travelmob1.png" width="341" height="610">
