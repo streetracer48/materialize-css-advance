@@ -13,7 +13,7 @@
 <img src="img/travel.png" width="800" height="400">
 
 - `Most Popular place and ficking`
-<img src="img/travel2.png" width="300" height="300">
+<img src="img/travel2.png" width="341" height="610">
 
 - `Mobile Responsive`
 <img src="img/travelmob1.png" width="341" height="610">
@@ -25,22 +25,24 @@ travelmob2m
 <img src="img/travelmob2m.png" width="341" height="610">
 
 - `Picking item`
-<img src="img/travelmob3.png" width="800" height="400">
+<img src="img/travel3.png" width="800" height="400">
 
-- `posts page`
-<img src="img/post.png" width="800" height="400">
+- `Cloud V9  Home`
+<img src="img/cloud1.png" width="800" height="400">
 
-- `users profile system`
-<img src="img/users.png" width="800" height="400">
+- `Cloud v9 service`
+<img src="img/cloud2.png" width="800" height="400">
 
-- `comments`
-<img src="img/comment.png" width="800" height="400">
+- `Cloud v9 sign UP`
+<img src="img/cloud3.png" width="800" height="400">
 
-- `categories page`
-<img src="img/cat.png" width="800" height="400">
+- `Cloud v9 mobile Responsive`
+<img src="img/cloudmob.png" width="341" height="610">
 
-- `add posts modal`
-<img src="img/addpost.png" width="800" height="400">
+- `Blitz Home`
+<img src="img/blizz.png" width="800" height="400">
+- `Blitz Services`
+<img src="img/blizz2.png" width="800" height="400">
 
 ## Following technologies are used
 
