@@ -13,16 +13,16 @@
 <img src="img/travel.png" width="800" height="400">
 
 - `Most Popular place and ficking`
-<img src="img/travel2" width="300" height="300">
+<img src="img/travel2.png" width="300" height="300">
 
 - `Mobile Responsive`
-<img src="img/travelmob1" width="341" height="610">
+<img src="img/travelmob1.png" width="341" height="610">
 
 travelmob2m
 
 
 - `Mobile Responsive home`
-<img src="img/travelmob2m" width="341" height="610">
+<img src="img/travelmob2m.png" width="341" height="610">
 
 - `Picking item`
 <img src="img/travelmob3.png" width="800" height="400">
